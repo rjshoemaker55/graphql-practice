@@ -3,3 +3,44 @@ body {
   font-family: 'montserrat';
   padding: 40px;
 }
+
+#main {
+  text-align: center;
+  width: 60%;
+  box-sizing: border-box;
+}
+
+#book-list {
+  display: inline-block;
+}
+
+.book {
+  display: inline-block;
+  margin: 10px;
+  padding: 0px 10px;
+  border-radius: 5px;
+  background: rgb(240, 230, 140);
+}
+
+.book:hover {
+  cursor: pointer;
+  background: rgb(175, 160, 22);
+}
+
+#book-details {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  background: rgb(135, 206, 250);
+  padding-top: 10%;
+}
+
+.field {
+  margin: 10px;
+}
+
+label {
+  margin-right: 10px;
+}

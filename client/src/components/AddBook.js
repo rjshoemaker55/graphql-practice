@@ -41,6 +41,7 @@ const AddBook = props => {
 
   return (
     <form id='add-book' onSubmit={submitForm}>
+      <h2>Add a book:</h2>
       <div className='field'>
         <label>Book name:</label>
         <input type='text' onChange={e => setName(e.target.value)} />
