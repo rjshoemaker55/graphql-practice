@@ -125,7 +125,7 @@ const Mutation = new GraphQLObjectType({
           name: args.name,
           authorId: args.authorId,
           genre: args.genre
-        });
+        }); 
         return book.save();
       }
     }
